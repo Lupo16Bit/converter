@@ -27,5 +27,5 @@ class Converter:
                 i += 1
             return " Roemische Zahl: " + outputRoman
         else:
-            print("Ungueltige Eingabe. Zahl muss im Bereich von 1 - 4999 liegen.")
+            print("Ungueltige Eingabe. Zahl muss im Bereich 1 bis 4999 liegen.")
         
