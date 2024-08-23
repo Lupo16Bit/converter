@@ -22,5 +22,5 @@ class ConverterTesting(Converter):
             return "DEBUG: Roemische Zahl: " + outputRoman
     
         else:
-            print("DEBUG: Ungueltige Eingabe. Zahl muss im Bereich von 1 - 4999 liegen.")
+            print("DEBUG: Ungueltige Eingabe. Zahl muss im Bereich 1 bis 4999 liegen.")
             
