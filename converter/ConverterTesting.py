@@ -19,7 +19,7 @@ class ConverterTesting(Converter):
                     outputRoman += self.symbols[i]
                     number -= self.values[i]
                 i += 1
-            return "DEBUG: Römische Zahl: " + outputRoman
+            return "DEBUG: Roemische Zahl: " + outputRoman
     
         else:
             print("DEBUG: Ungueltige Eingabe. Zahl muss im Bereich von 1 - 4999 liegen.")
