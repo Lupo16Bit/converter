@@ -25,7 +25,7 @@ class Converter:
                     outputRoman += self.symbols[i]
                     number -= self.values[i]
                 i += 1
-            return " Römische Zahl: " + outputRoman
+            return " Roemische Zahl: " + outputRoman
         else:
             print("Ungueltige Eingabe. Zahl muss im Bereich von 1 - 4999 liegen.")
         
