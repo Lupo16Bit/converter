@@ -1,11 +1,26 @@
-from Converter import Converter 
+from Handler import Handler
+from Converter import Converter
 from ConverterTesting import ConverterTesting
-number = input("Zahl zwischen 0 und 4999 eingeben: ")
-outln = ""
 
+""" 
+    Konvertierung einer arabischen Zahl zur römischen Zahl.
+    Zahl muss zwischen 0 und 5000 liegen. 
+"""
+
+
+handler = Handler()
 conv = Converter()
-print("MARK")
-print(conv.convertIntToRoman(int(number)))
-conv2 = ConverterTesting()
-print(conv2.convertIntToRoman(int(number)))
-print("DONE")
+convTest = ConverterTesting()
+line = handler.line
+
+while True:
+        
+        print('#'+ str(handler.cntr))
+        number = input(" Eine Zahl von 1-4999 wählen:\n Arabische Ganzzahl:")
+        
+        handler.convert(number,conv,line)
+        #handler.convertTestOnly(number, convTest, line)
+        #handler.convertWithTest(number, conv, convTest, line)
+        handler.cntr += 1
+    
+ 
